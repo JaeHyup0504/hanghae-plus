@@ -32,11 +32,22 @@ class HardWork {
   }
 
   do() {
-    for (let i = 0; i < this._tasks.length; i++) {
-      setTimeout(() => {
+    // for (let i = 0; i < this._tasks.length; i++) {
+    //   setTimeout(() => {
+    //     this._tasks[i]();
+    //   }, (1000 / 100) * i);
+    // }
+
+    let i = 0;
+    const intervalId = setInterval(() => {
+      if (i < this._tasks.length) {
         this._tasks[i]();
-      }, (1000 / 100) * i);
-    }
+        i++;
+        console.log(i);
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 0);
   }
 
   // do() 이외의 메서드는 수정하지마세요
