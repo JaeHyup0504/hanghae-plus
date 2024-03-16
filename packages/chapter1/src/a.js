@@ -30,7 +30,7 @@ function JuniorEngineer(health, intelligence) {
   // }
 
   // 과제 C를 위한 생성자 함수 수정
-  this._isBornGenius = this._intelligence > 10 ? true : false;
+  this._isBornGenius = this._intelligence > 10;
 }
 //- 생성자 함수는 수정하지 마세요
 
