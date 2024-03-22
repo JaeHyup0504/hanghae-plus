@@ -16,24 +16,8 @@ export function createHooks(callback) {
     return [state, setState];
   };
 
-  const useMemo = (fn, deps) => {
-    const isEqual = (arr1, arr2) => {
-      if (arr1.length !== arr2.length) {
-        return false;
-      }
-      for (let i = 0; i < arr1.length; i++) {
-        if (arr1[i] !== arr2[i]) {
-          return false;
-        }
-      }
-      return true;
-    };
-
-    if (!states[statesKey] || !isEqual(deps, states[statesKey][1])) {
-      states[statesKey] = [fn(), deps];
-    }
-
-    return states[statesKey][0];
+  const useMemo = (fn, refs) => {
+    return fn();
   };
 
   const resetContext = () => {
