@@ -17,6 +17,7 @@ export function createHooks(callback) {
   };
 
   const useMemo = (fn, refs) => {
+    test;
     return fn();
   };
 
