@@ -9,3 +9,4 @@
 과제 A. [React와 유사한 렌더링 시스템 만들기](./packages/chapter2/src/render.js) ✅
 <br/>과제 B. [useState, useMemo 만들기](./packages/chapter2/src/hooks.js) ✅
 <br/>과제 C. [나만의 React 만들기](./packages/chapter2/src/MyReact.js) ❌
+<br/>과제 D. [useState > Batch 구현](./packages/chapter2/src/hooks2.js) ✅
