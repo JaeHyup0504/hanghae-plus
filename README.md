@@ -11,3 +11,4 @@
 <br/>과제 C. [나만의 React 만들기](./packages/chapter2/src/MyReact.js) ❌
 <br/>과제 D. [useState > Batch 구현](./packages/chapter2/src/hooks2.js) ✅
 <br/>과제 E. [구독/발행 패턴 구현](./packages/chapter2/src/observer/pubsub.js) ✅
+<br/>과제 F. [구독/발행 기반 Store 구현](./packages/chapter2/src/observer/store.js) ✅
