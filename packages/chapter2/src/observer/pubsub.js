@@ -1,8 +1,9 @@
-let currentCallback;
+let currentCallback = null;
 
 export const 구독 = (fn) => {
   currentCallback = fn;
   fn();
+  currentCallback = null;
 };
 
 export const 발행기관 = (obj) => {
@@ -12,7 +13,7 @@ export const 발행기관 = (obj) => {
 
     Object.defineProperty(obj, key, {
       get() {
-        sub.add(currentCallback);
+        currentCallback && sub.add(currentCallback);
         return value;
       },
       set(newValue) {
