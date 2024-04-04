@@ -3,9 +3,15 @@ import { render as updateElement } from "./render";
 
 function MyReact() {
   const _render = () => {};
-  function render($root, rootComponent) {}
+  function render($root, rootComponent) {
+    "test";
+  }
 
-  const { useState, useMemo, resetContext: resetHookContext } = createHooks(_render);
+  const {
+    useState,
+    useMemo,
+    resetContext: resetHookContext,
+  } = createHooks(_render);
 
   return { render, useState, useMemo };
 }
