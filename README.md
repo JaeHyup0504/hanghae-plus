@@ -19,7 +19,7 @@
 
 ### Chapter 3. RSC와 Next.js
 - 과제 A. [React 프로젝트에서 검색엔진 대응하기](https://github.com/JaeHyup0504/JaeHyup0504.github.io) ✅
-- 과제 B. [프로젝트 SEO 대응](https://github.com/JaeHyup0504/JaeHyup0504.github.io) ✅
+- 과제 B. [프로젝트 SEO 대응](https://github.com/JaeHyup0504/JaeHyup0504.github.io/blob/main/src/components/seo/Seo.tsx) ✅
 
 ### Chapter 4. 기획/설계 + CI/CD
 - 과제 A. [프로젝트 기획서 (팀노션) 제출](https://www.notion.so/teamsparta/12-be73cd0aa60440c5bc6734da6d1bbd70) ✅
