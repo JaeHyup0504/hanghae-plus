@@ -12,7 +12,7 @@
 ### Chapter 2. React 파헤치기
 - 과제 A. [React와 유사한 렌더링 시스템 만들기](./packages/chapter2/src/render.js) ✅
 - 과제 B. [useState, useMemo 만들기](./packages/chapter2/src/hooks.js) ✅
-- 과제 C. [나만의 React 만들기](./packages/chapter2/src/MyReact.js) ❌
+- 과제 C. [나만의 React 만들기](./packages/chapter2/src/MyReact.js) ✅
 - 과제 D. [useState > Batch 구현](./packages/chapter2/src/hooks2.js) ✅
 - 과제 E. [구독/발행 패턴 구현](./packages/chapter2/src/observer/pubsub.js) ✅
 - 과제 F. [구독/발행 기반 Store 구현](./packages/chapter2/src/observer/store.js) ✅
